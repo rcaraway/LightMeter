@@ -32,6 +32,7 @@ dependencies:
   hooks_riverpod: 0.14.0+4
   flutter_hooks: ^0.17.0
   camera: 0.9.4
+  beamer: ^0.14.1
   get: 4.3.8 
 
 
