@@ -45,7 +45,9 @@ class CameraPage extends HookWidget {
     ));
   }
 
-  onTap(TapUpDetails details) {}
+  onTap(TapUpDetails details) {
+    
+  }
 
   setupCamera() async {}
 }

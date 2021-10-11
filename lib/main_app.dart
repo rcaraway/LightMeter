@@ -7,12 +7,6 @@ class LightMeterApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AppNavigation navigation = Get.find();
-    return GetMaterialApp.router(
-        routeInformationParser: navigation.defaultParser,
-        routerDelegate: navigation.defaultRouter,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ));
+    return GetMaterialApp(initialRoute: '/', getPages: AppNavigation.pages);
   }
 }
